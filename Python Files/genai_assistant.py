@@ -70,7 +70,7 @@ try:
     from groq import Groq
 
     # Configure with API key
-    client = Groq(api_key='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')
+    client = Groq(api_key='ENTER KEY HERE')
 
 
     def ask_question(question):
@@ -232,3 +232,4 @@ response = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
     messages=[{"role": "user", "content": context + user_question}]
 )"""
+
